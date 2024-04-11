@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(0, 5, 31);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 380px;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 13px;
+
+  height: 13px;
+
+  margin: 1px;
+  background-color: rgb(19, 22, 43);
+  transition: 1s;
+}
+
+.box:hover {
+  transition: 0s;
+}
+
+@media screen and (max-width: 500px) {
+  .box {
+    height: 10px;
+    width: 10px;
+  }
+}
